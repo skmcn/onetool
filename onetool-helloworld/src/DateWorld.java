@@ -4,7 +4,10 @@ import java.util.Date;
 
 public class DateWorld {
     public static void main(String[] args) {
-        
+        System.out.println((1*1024*1024)/4);        // 1M 262144中文
+        System.out.println(1*1024*1024*108);        // 108T有113246208M
+        System.out.println(113246208/60/60/24);     // 1310天
+        System.out.println(113246208/60/60/24/365);
     }
     public void t02 () {
         SimpleDateFormat dateFormatYYMMDDTT = new SimpleDateFormat("yyyy-MM-dd");
