@@ -10,7 +10,7 @@ public class DateWorld {
         SimpleDateFormat dateFormatYYMMDDTT = new SimpleDateFormat("yyyy-MM-dd");
         Calendar c = Calendar.getInstance();
         c.setTime(new Date());
-        c.add(Calendar.DAY_OF_MONTH, 10);// 今天+10天
+        c.add(Calendar.DAY_OF_MONTH, 11);// 今天+11天
         System.out.println(dateFormatYYMMDDTT.format(c.getTime()));
     }
     public static void t02 () {
