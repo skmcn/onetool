@@ -9,6 +9,7 @@ public class Speak02 {
     //用电脑自带的语音读字符串str
     public static void main(String[] args) {
         String str = "你好，我是java小新人！请叫我最帅的帅锅";
+        String str1 = "你好，我是java小新人！请叫我最帅的帅锅";
 
         ActiveXComponent sap = new ActiveXComponent("Sapi.SpVoice");
         Dispatch sapo = sap.getObject();
